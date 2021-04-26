@@ -1,0 +1,141 @@
+a{
+    font-family: 'Amatic SC', cursive;
+    text-decoration: none;
+    align-content:center;
+    color:white;
+    text-shadow: 4px 4px 8px navajowhite;
+}
+a:hover{
+    text-decoration: underline;
+    color:darkgreen;
+}
+#aboutText{
+    overflow: scroll;
+    height:400px;
+    color:black;
+    font-family: 'Amatic SC', cursive;
+    font-size:xx-large;
+    text-shadow: 5px 5px 8px white;
+}
+#asterisk{
+    color: orangered;
+}
+#asterisk:hover{
+    color:orchid;
+}
+body{
+    font-family: 'Architects Daughter', cursive;
+    font-size: xx-large;
+    text-align: center;
+    background-image: url('https://www.ghibli.jp/images/gedo1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+.box{
+    height: 400px;
+    width: auto;
+    background-color:navajowhite;
+    opacity: 0.5;
+    z-index: -1;
+    display: flex;
+    margin-left: 490px;
+    margin-top:0px;
+    margin-bottom: 0px;
+    margin-right: 200px;
+    position: absolute;
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
+    width: 350px;
+    height: 400px;
+}
+.fade-in-text {
+    animation: fadeIn linear 1s;
+    -webkit-animation: fadeIn linear 1s;
+    -moz-animation: fadeIn linear 1s;
+    -o-animation: fadeIn linear 1s;
+    -ms-animation: fadeIn linear 1s;
+}
+.fade-in-text-link{
+    animation: fadeIn linear 5s;
+    -webkit-animation: fadeIn linear 5s;
+    -moz-animation: fadeIn linear 5s;
+    -o-animation: fadeIn linear 5s;
+    -ms-animation: fadeIn linear 5s;
+}
+.fade-in-text-paragraph{
+    animation: fadeIn linear 3s;
+    -webkit-animation: fadeIn linear 3s;
+    -moz-animation: fadeIn linear 3s;
+    -o-animation: fadeIn linear 3s;
+    -ms-animation: fadeIn linear 3s;
+}
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+h1{
+    color:rgb(89, 168, 173);
+    text-shadow: 4px 4px 8px white;
+    -webkit-animation-name: Floatingx;
+    animation-name: Floatingx;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -moz-animation-name: Floating;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+@-webkit-keyframes Floatingx {
+    from {-webkit-transform:translate(0, 0px);}
+    65% {-webkit-transform:translate(0, 15px);}
+    to {-webkit-transform: translate(0, -0px);}    
+}
+@keyframes Floatingx {
+    from {-webkit-transform:translate(0, 0px);}
+    65% {-webkit-transform:translate(0, 15px);}
+    to {-webkit-transform: translate(0, -0px);} 
+}
+@-moz-keyframes Floating {
+    from {-moz-transform:translate(0, 0px);}
+    65% {-moz-transform:translate(0, 15px);}
+    to {-moz-transform: translate(0, -0px);}    
+}
+@keyframes Floating {
+    from {-moz-transform:translate(0, 0px);}
+    65% {-moz-transform:translate(0, 15px);}
+    to {-moz-transform: translate(0, -0px);} 
+}
+h2{
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    font-stretch:ultra-expanded;
+    color: white;
+    text-shadow: 4px 4px 8px black;
+}
+
