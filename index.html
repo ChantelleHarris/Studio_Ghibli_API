@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../cssFiles/styles.css" type="text/css"> 
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+        </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+        </style>
+    <title>Studio Ghibli API</title>
+</head>
+<body>
+    <audio id="audio" preload="auto" autoplay='true'loop='true'>
+        <source src="../assets/pureImagination.ogg" type="audio/ogg" />
+    </audio>
+    <script>
+        var vAudio = document.getElementById("audio");
+        function playMusic()
+        {
+        vAudio.play();
+        }
+    </script>
+<div onmouseover="playMusic()">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mWI3M7CM72o?autoplay=1&mute=1&loop=1&playlist=mWI3M7CM72o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; controls=0; encrypted-media; gyroscope; loop=1; picture-in-picture" allowfullscreen></iframe>
+<h1>from the Worlds of Ghibli</h1> 
+<div class = 'nav-block'>
+    <div class = 'box'></div>
+    <ul>
+        <li id = 'nav-header'><strong>Explore</strong></li>
+        <li><a href="about.html">About</a></li>   
+        <li><a href="films.html">Films</a></li>
+        <li><a href="locations.html">Locatons</a></li>
+        <li><a href="people.html">People</a></li>
+        <li><a href="species.html">Species</a></li>
+        <li><a href="vehicles.html">Vehicles</a></li>
+    </ul>
+</div>
+<script src="api_index.js"></script>
+</div>
+</body>
+</html>
