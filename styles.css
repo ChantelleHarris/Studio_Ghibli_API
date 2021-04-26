@@ -1,0 +1,106 @@
+a{
+    text-decoration: none;
+    align-content:center;
+    color: white;
+    z-index: 1;
+}
+a:hover{
+    text-decoration: underline;
+    color:darksalmon;
+}
+body{
+    font-family: 'Architects Daughter', cursive;
+    font-size: xx-large;
+    text-align: center;
+    background-color: transparent;  
+}
+.box{
+    height: 449px;
+    width: 262px;
+    background-color:darkblue;
+    opacity: 0.5;
+    z-index: -1;
+    display: flex;
+    margin-left: -40px;
+    margin-right: 200px;
+    position: absolute;
+}
+h1{
+    color:white;
+    text-shadow: 4px 4px 8px black;
+    -webkit-animation-name: Floatingx;
+    animation-name: Floatingx;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -moz-animation-name: Floating;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+@-webkit-keyframes Floatingx {
+    from {-webkit-transform:translate(0, 0px);}
+    65% {-webkit-transform:translate(0, 15px);}
+    to {-webkit-transform: translate(0, -0px);}    
+}
+@keyframes Floatingx {
+    from {-webkit-transform:translate(0, 0px);}
+    65% {-webkit-transform:translate(0, 15px);}
+    to {-webkit-transform: translate(0, -0px);} 
+}
+@-moz-keyframes Floating {
+    from {-moz-transform:translate(0, 0px);}
+    65% {-moz-transform:translate(0, 15px);}
+    to {-moz-transform: translate(0, -0px);}    
+}
+@keyframes Floating {
+    from {-moz-transform:translate(0, 0px);}
+    65% {-moz-transform:translate(0, 15px);}
+    to {-moz-transform: translate(0, -0px);} 
+}
+iframe{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+li{
+    list-style-type: none;
+    align-content:center;
+    color: white;
+    z-index: 1;
+}
+li:hover{
+    text-decoration: underline;
+    color:darksalmon;
+}
+.nav-block{
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    border: 5px solid white;
+    z-index: 1;
+    margin-right:5500px;
+    margin-left: 550px;
+    margin-bottom: 50px;
+    padding-right: 80px;
+    padding-left: 40px;
+    position:absolute;
+}
+#nav-header{
+    font-size: 50px;
+    text-decoration: underline;
+}
+#nav-header:hover{
+    color: white;
+}
+
+
+
